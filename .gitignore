@@ -1,0 +1,10 @@
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+*.lock.*
+
+*.tfvars
+
+plenary-song-386817-0914a625f9eb.json
