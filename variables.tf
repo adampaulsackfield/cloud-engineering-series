@@ -42,3 +42,13 @@ variable "private_cidr" {
   type        = string
   description = "Private CIDR Range"
 }
+
+variable "terraform_user" {
+   type        = string
+  description = "Terraform Username"
+}
+
+variable "terraform_public_ssh_key" {
+  type        = string
+  description = "SSH Public Key Path for Terraform"
+}
